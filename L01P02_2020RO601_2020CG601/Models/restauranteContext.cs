@@ -7,5 +7,6 @@ namespace L01P02_2020RO601_2020CG601.Models
         {
         }
         public DbSet<pedidos> pedidos { get; set; }
-}
+        public DbSet<platos> platos { get; set; }
+    }
 }
